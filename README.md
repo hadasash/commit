@@ -33,6 +33,8 @@ cd SPA
 
 npm install
 
+npm start
+
 Running the Code:
 
 After completing the setup for both the backend and frontend, you can run the code on localhost.
