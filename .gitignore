@@ -1,0 +1,62 @@
+# Ignore Node.js modules
+node_modules/
+
+# Ignore build and compiled files for Nest.js
+BE/dist/
+BE/*.js
+BE/*.js.map
+BE/*.d.ts
+
+# Ignore build and compiled files for Redux (assuming you use create-react-app or a similar setup)
+spa/build/
+spa/public/
+spa/.env
+
+# Ignore Redux build artifacts
+spa/*.log
+spa/*.pid
+spa/*.seed
+spa/*.log
+spa/*.sqlite
+
+# Ignore Nest.js environment files
+BE/.env
+BE/.env.local
+BE/.env.*.local
+BE/.env.test
+BE/.env.test.local
+BE/.env.prod
+BE/.env.prod.local
+
+# Ignore Nest.js logs
+BE/logs/
+BE/*.log*
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore Nest.js coverage reports
+BE/coverage/
+
+# Ignore Nest.js generated docs
+BE/docs/
+
+# Ignore Nest.js temporary files
+BE/tmp/
+
+# Ignore Nest.js dependency directories
+BE/libs/*/dist/
+
+# Ignore Nest.js Nest-generated artifacts
+BE/*.js.map
+BE/*.js.map.txt
+BE/*.js.map.json
+
+# Ignore Nest.js docker-compose files
+BE/docker-compose*
+
+# Ignore Redux package-lock files
+spa/package-lock.json
+
+# Ignore Redux development server logs
+spa/npm-debug.log*
